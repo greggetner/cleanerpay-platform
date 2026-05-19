@@ -20,6 +20,20 @@ const config: Config = {
         },
         cream: "#FAF8F3",
       },
+      fontFamily: {
+        display: ["var(--font-display)", "ui-serif", "Georgia", "serif"],
+        body: [
+          "var(--font-body)",
+          "ui-sans-serif",
+          "system-ui",
+          "-apple-system",
+          "Segoe UI",
+          "Roboto",
+          "Helvetica Neue",
+          "Arial",
+          "sans-serif",
+        ],
+      },
       maxWidth: {
         site: "1100px",
       },
